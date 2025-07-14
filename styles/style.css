@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Anton&family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&family=Exile&family=Meie+Script&family=Monoton&family=Outfit:wght@100..900&family=Prata&family=Rubik+Vinyl&family=Share+Tech&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+}
+.container{
+    background-color: transparent;
+    min-height:100vh;
+    margin: auto;
+    background-color: #001d3d;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    margin: auto;
+    margin: 0%;
+    width: 100%;
+    height: 60vh;
+    border: none;
+    border-bottom: solid 2px #495057;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 5%;
+}
+.profile{
+    margin: auto;
+    width: 30vh;
+    height: 30vh;
+    background-color: black;
+    border-radius: 100%;
+}
+.im{
+    margin: auto;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
+}
+.name{
+    background-color: transparent;
+    margin: auto;
+    width: 55%;
+    height: 25vh;
+}
+.name h1{
+    color: #dee2e6;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 40%;
+    margin-left: 0;
+}
+.name .p{
+    color: #48cae4;
+    font-weight:500;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-left: 0%;
+}
+.location{
+    background-color: transparent;
+    width: 100%;
+    height: 3vh;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 0%;
+}
+.location .lc{
+    margin: auto;
+    width: 4%;
+}
+.location .loc{
+    margin: auto;
+    margin-left: 5%;
+    margin-top: -4%;
+    color: #778da9;
+}
+
+.btns{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 12%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+.btn1,.btn2{
+    height: 5vh;
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    color: #dee2e6;
+    font-weight: 400;
+    font-size:medium;
+}
+.btn1{
+    background-color: #2196f3;
+}
+.btn2{
+    background-color: transparent;
+    border: solid 2px #778da9;
+}
+.about-section{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    border: none;
+    border-bottom: solid 2px #778da9;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    margin: auto;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 55vh;
+    background-color: transparent;
+
+}
+.about h1{
+    color: #dee2e6;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.about h1:hover{
+    border-bottom: solid 2px #778da9;
+    width: 20%;
+}
+.about .me{
+    color: #dee2e6;
+}
+.mini-image{
+   margin: auto;
+   margin-left:0%;
+   margin-top: 2%;
+   width: 50%;
+   height: 55vh;
+   display: flex;
+   flex-direction: row;
+   gap: 2%;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    border-bottom: solid 2px #778da9;
+}
+.education .details{
+    margin: 0%;
+    width: 50%;
+    height: 55vh;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.education .edu{
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+}
+.education h1{
+    color: #dee2e6;
+    cursor: pointer;
+}
+.education .line{
+    border: none;
+    border-left:solid #495057 3px;
+    height: 30%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.education .line-2{
+    border: none;
+    border-left:solid #495057 3px;
+    height: 55%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-top: 15%
+}
+.line-2 .p2{
+    color: #dee2e6;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.line-2 .p{
+    margin-left: 1%;
+    color: #778da9;
+    font-weight: 600;
+}
+.line .p{
+    margin-left: 1%;
+    color: #778da9;
+    font-weight: 600;
+}
+.line .p2{
+    color: #dee2e6;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.edu-con{
+    display: flex;
+    flex-direction: row;
+}
+.skills{
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 45%;
+    height: 55vh;
+}
+@media(max-width:700px){
+    .skills{
+        width: 90%;
+    }
+    .edu-con .line-2{
+        height: 60%;
+    }
+    .edu-con{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        gap: 20%;
+    }
+    .education .details{
+        width: 90%;
+        margin-left: 0;
+    }
+    .about-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: 90%;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .name{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .hero{
+        height: 65vh;
+    }
+    .name h1{
+        font-size: 150%;
+        margin-left: 25%;
+    }
+    .name .p{
+        margin-left: 25%;
+    }
+    .location{
+        margin: auto;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }  
+    .location .lc{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .location .loc{
+        margin-left: 30%;
+        margin-top: -5%;
+    }
+    .profile{
+        margin-left: 15%;
+    }
+    .btns{
+        margin: auto;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+        margin-top: -14%;
+        gap: 5%;
+    }
+    .btn1,.btn2{
+        width: 40%;
+        margin-left: 5%;
+    }
+}
